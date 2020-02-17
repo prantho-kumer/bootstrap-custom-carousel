@@ -1,0 +1,37 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .carousel-indicators-custom li {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slider {
+        padding: 50px 50px;
+    }
+
+    .slider h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .slider p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slider {
+        padding: 60px 60px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

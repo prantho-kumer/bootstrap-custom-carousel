@@ -1,0 +1,35 @@
+.banner {
+    background-image: url(../images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-indicators-custom {
+    bottom: -10px;
+}
+
+.carousel-indicators-custom li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.slider {
+    color: #ffffff;
+    background-color: rgba(121, 160, 175, 0.651);
+    padding: 70px 70px;
+}
+
+.slider h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.slider p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
